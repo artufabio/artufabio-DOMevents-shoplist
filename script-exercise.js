@@ -24,7 +24,7 @@ listItems.forEach(function(listItem){
 		listItem.classList.toggle("done");
 	})
 	var btn = document.createElement("button"); //create a button
-		btn.innerHTML = "DELETE";
+	btn.textContent = "DELETE";
 	btn.addEventListener("click", function(){  //adds a class at the click that deletes the item
 		listItem.classList.add("delete-item");
 	})
